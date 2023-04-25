@@ -6,6 +6,9 @@ var person1= CurrentAccount(220220,"Megan",1500)
    person1.deposit(500.0)
    person1.withdraw(150.0)
    person1.details()
+
+   var person2 = SavingsAccount(220220,"Megan",1500,300)
+   person2.accountWithdraw()
 }
 //1. Write and invoke one function that takes in a random string and returns the
 //following values: first character, last character, length of the string and
